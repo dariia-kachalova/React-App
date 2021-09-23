@@ -7,7 +7,6 @@ class List extends React.Component {
     static propTypes = {
       title: PropTypes.node.isRequired,
       children: PropTypes.node,
-      source: PropTypes.string.isRequired,
     }
     static defaultProps = {
         children: <p>I can do all the things!!!</p>,
