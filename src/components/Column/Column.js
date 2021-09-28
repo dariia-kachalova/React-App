@@ -23,9 +23,6 @@ class Column extends React.Component {
       cards: [
         ...state.cards,
         {
-          key: state.cards.length,
-        },
-        {
           title,
           key: state.cards.length,
         },
