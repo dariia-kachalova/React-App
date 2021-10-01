@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
     "lint": "eslint src/",
-		"server": "http-server dist"
+    "server": "http-server dist"
   },
   "husky": {
     "hooks": {
@@ -18,17 +18,17 @@
     "src/**/*.js": "eslint"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kachalova",
   "license": "ISC",
   "dependencies": {
+    "http-server": "^13.0.2",
     "prop-types": "^15.7.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-html-parser": "^2.0.2",
     "react-redux": "^7.0.1",
     "redux": "^4.0.1",
-    "shortid": "^2.2.16",
-		"http-server": "^13.0.2"
+    "shortid": "^2.2.16"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
