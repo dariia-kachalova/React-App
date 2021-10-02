@@ -6,6 +6,7 @@ export const settings = {
     buttonCancel: 'Cancel',
     defaultText: 'Add new item',
   },
+  headerIcon: 'dragon',
   search: {
     defaultText: 'Search...',
     icon: 'search',
@@ -140,7 +141,17 @@ const cards = [
     title: 'Skyrim',
   },
 ];
+export const infoData = {
+  content: 'Your it to gave life whom as. Favourable dissimilar resolution led for and had. At play much to time four many. Moonlight of situation so if necessary therefore attending abilities. Calling looking enquire up me to in removal. Park fat she nor does play deal our. Procured sex material his offering humanity laughing moderate can. Unreserved had she nay dissimilar admiration interested. Departure performed exquisite rapturous so ye me resources.',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  title: 'Information',
+};
 
+export const faqData = {
+  content: 'Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  title: 'Frequently asked questions',
+};
 const initialStoreData = {
   app: { ...pageContents },
   lists: [...lists],
